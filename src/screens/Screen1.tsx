@@ -51,7 +51,7 @@ export default function Screen1() {
           placeholder="Mediano"
           keyboardType="numeric"
         />
-        <Text style={styles.texto}>Color:</Text>
+        <Text style={styles.texto}>Carácter:</Text>
         <TextInput
           style={styles.input}
           onChangeText={(texto)=> setCharacter(texto)}
