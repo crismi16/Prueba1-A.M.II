@@ -23,7 +23,7 @@ export default function Screen1() {
     setRace('')
     setOrigin('')
     setSize('')
-    setOrigin('')
+    setCharacter('')
 }
 
   return (
@@ -48,7 +48,7 @@ export default function Screen1() {
           style={styles.input}
           onChangeText={(texto)=> setSize(texto)}
           value={size}
-          placeholder=""
+          placeholder="Mediano"
           keyboardType="numeric"
         />
         <Text style={styles.texto}>Color:</Text>
