@@ -58,8 +58,6 @@ export default function Screen1() {
           value={character}
           placeholder="Amigable, servicial"
         />
-        <Text style={styles.texto}>Usuario:</Text>
-        <Text style={styles.texto}> Confirme la contraseña:</Text>
         <View style={styles.containerB}>
           <ButtonComponent title='REGISTRAR' onPress={()=>guardarRegistro(race,origin,size,character)}/>
         </View>
